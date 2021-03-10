@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DoyenMasterPage.master.cs" Inherits="GestionPresence.Doyen.DoyenMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>BMDSys</title>
+    <link rel="stylesheet" href="~/Styles/MasterPageStyle.css"/>
+    <link rel="stylesheet"  href="~/Styles/fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="~/Styles/fontawesome/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Styles/modalPopup/popup_horaire.css" />
+
+     <script type="text/javascript">
+         function preventBack() { window.history.forward(); }
+         setTimeout("preventBack()", 0);
+         window.onunload = function () { null };
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:rgb(218,218,182)">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>BMDSysWeb</h2>
+                <ul>
+                    <li><a href="../Authentification.aspx"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="horaire.aspx"><i class="fas fa-address-card"></i>Horaires</a></li>
+                    <li><a href="pointage_statistique.aspx"><i class="fas fa-address-book"></i>Rapports</a></li>
+                    <li><a href="departement.aspx"><i class="fas fa-blog"></i>Departement</a></li>
+                    <li><a href="classes.aspx"><i class="fas fa-address-book"></i>Classe</a></li>
+                    <li><a href="unite_enseignement.aspx"><i class="fas fa-user"></i>Unites</a></li>
+                    <li><a href="cours_creation.aspx"><i class="fas fa-user"></i>Cours</a></li>
+                    <li><a href="cours_attribution.aspx"><i class="fas fa-address-card"></i>Attribution du cours</a></li>
+                </ul> 
+            </div>
+            <div style="margin-top:600px;position:absolute;text-align:center; margin-left:5px">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/user.png" />
+                    <ul >
+                        <asp:Label ID="lbl_utlilisateur" runat="server" Text="Label" ForeColor="White" Font-Bold="true">
+                        </asp:Label>
+                    </ul>
+                 </div>
+        </div>
+        <section class="content">
+            <div class="container-fluid">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+         </section>
+    </form>
+</body>
+</html>

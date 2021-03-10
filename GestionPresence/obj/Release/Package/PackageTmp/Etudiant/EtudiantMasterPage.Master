@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EtudiantMasterPage.master.cs" Inherits="GestionPresence.Etudiant.EtudiantMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>BMDSys</title>
+    <link rel="stylesheet" href="~/Styles/MasterPageStyle.css"/>
+    <link rel="stylesheet"  href="~/Styles/fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="~/Styles/fontawesome/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Styles/modalPopup/popup_horaire.css" />
+
+     <script type="text/javascript">
+         function preventBack() { window.history.forward(); }
+         setTimeout("preventBack()", 0);
+         window.onunload = function () { null };
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:rgb(218,218,182)">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>BMDSysWeb</h2>
+                <ul>
+                    <li><a href="../Authentification.aspx"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="prestations.aspx"><i class="fas fa-map-pin"></i>Prestation</a></li>
+                    <li><a href="pointage.aspx"><i class="fas fa-project-diagram"></i>Pointage</a></li>
+                </ul> 
+            </div>
+            <div style="margin-top:600px;position:absolute;text-align:center; margin-left:20px">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/user.png" />
+                    <ul >
+                        <asp:Label ID="lbl_utlilisateur" runat="server" Text="Label" ForeColor="White" Font-Bold="true">
+                        </asp:Label>
+                    </ul>
+                 </div>
+        </div>
+        <section class="content">
+            <div class="container-fluid">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </section>
+    </form>
+</body>
+</html>

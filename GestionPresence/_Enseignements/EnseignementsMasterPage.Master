@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EnseignementsMasterPage.Master.cs" Inherits="BMDSysWeb.EnseignementsMasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="../_Styles/MasterPageStyle/MasterPageMainStyle.css" rel='stylesheet prefetch' type="text/css">
+    <link href="../_Styles/MasterPageStyle/foundation.css" rel='stylesheet prefetch' type="text/css">
+    <link href="../_Styles/MasterPageStyle/mtree.css" rel="stylesheet" type="text/css">
+    <link href="../_Styles/MasterPageStyle/sticky.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_Styles/MasterPageStyle/TextBox/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../_Styles/MasterPageStyle/TextBox/TextBoxStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../_Styles/popup/popup_horaire.css" />
+    <script src="../_Styles/MasterPageStyle/TextBox/classie.js"></script>
+</head>
+
+<body style="/*background-color: #123456; */background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);">
+    <form runat="server">
+        <div id="css-script-menu">
+            <div class="css-3d-text">BMDSysSoft</div>
+        </div>
+        <div class="leftDiv">
+            <ul class="mtree transit">
+                <li><a href="#"> &#9997; Cours et UE</a>
+                    <ul>
+                        <li><a href="unite_enseignement.aspx">&#9592; Creation des UE</a></li>
+                        <li><a href="cours_creation.aspx">&#9592; Création du cours</a></li>
+                        <li><a href="cours_attribution.aspx">&#9592; Attribution du cours</a></li>
+                        <li><a href="cours_etat_enseignement.aspx">&#9592; Etat d'enseignement</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Suivi des enseignements</a>
+                    <ul>
+                        <li><a href="salle_creation.aspx">&#9592; Creation des salles</a></li>
+                        <li><a href="horaire.aspx">&#9592; Création de l'horaire</a></li>
+                        <li><a href="prestations.aspx">&#9592; Validation des prestattions</a></li>
+                        <li><a href="Imprimer_horaire.aspx">&#9592; Imprimer l'horaire</a></li>
+                        <li><a href="#">&#9592; Imprimer les matieres enseignes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Verification des presences</a>
+                    <ul>
+                        <li><a href="pointage.aspx">&#9592; Pointage</a></li>
+                        <li><a href="pointage_statistique.aspx">&#9592; Statistique des presences</a></li>
+                        <li><a href="prestations.aspx">&#9592; Validation des prestattions</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">&#9803;  Switcher vers</a>
+                    <ul>
+                        <li runat="server" id="Admin_MenuItem"><a href="/_AdminSI/emptyAdmin.aspx">&#9592;Administration du SI</a></li>
+                        <li  runat="server" id="Scolarite_MenuItem"><a href="/_Scolarite/emptyScolarite.aspx">&#9592;Service Etudiants & Scolarité</a></li>
+                        <li  runat="server" id="Finance_MenuItem"><a href="/_Recouvrement/emptyRecouvrement.aspx">&#9592;Recouvrement des frais</a></li>
+                        <li  runat="server" id="Bibliotheque_MenuItem"><a href="/_Bibliotheque/emptyBibliotheque.aspx">&#9592;Bibliothèque numérique</a></li>
+                        <li  runat="server" id="Rapports_MenuItem"><a href="/_Rapports_Statistiques/emptyRapports.aspx">&#9592;Rapports et Statistiques</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"> &#128272; User settings</a>
+                    <ul>
+                        <li class="classLi"><a href="#">
+                            <asp:Label ID="User_Label" runat="server" ForeColor="#060624"></asp:Label></a></li>
+                        <li  class="classLi"><a href="/user_profile.aspx">&#9785; Profile</a></li>
+                        <li  class="classLi"><a href="/PWDChange.aspx">&#128273; Password</a></li>
+                        <li  class="classLi"><a href="/WelcomePage.aspx">&#9851; Log out</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/velocity/0.2.1/jquery.velocity.min.js'></script>
+            <script src="../_Styles/MasterPageStyle/mtree.js"></script>
+        </div>
+        <div class="rightDiv">
+            <asp:ContentPlaceHolder runat="server" ID="ContentPlace">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

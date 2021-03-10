@@ -1,0 +1,18 @@
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\GestionPresence.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\GestionPresence.pdb
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\Antlr3.Runtime.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\IronBarCode.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\itextsharp.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\itextsharp.licensekey.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\itextsharp.xfaworker.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\itextsharp.xmlworker.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\Jint.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\log4net.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\MySql.Data.DLL
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\IronBarCode.xml
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\obj\Release\GestionPresence.csprojResolveAssemblyReference.cache
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\obj\Release\GestionPresence.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\obj\Release\GestionPresence.pdb
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\obj\Release\GestionPresence.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\obj\Release\GestionPresence.dll
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\obj\Release\GestionPresence.pdb

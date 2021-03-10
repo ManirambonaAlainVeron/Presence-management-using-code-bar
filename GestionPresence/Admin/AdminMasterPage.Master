@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs" Inherits="GestionPresence.Admin.AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>BMDSys</title>
+    <link rel="stylesheet" href="~/Styles/MasterPageStyle.css"/>
+    <link rel="stylesheet"  href="~/Styles/fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="~/Styles/fontawesome/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Styles/modalPopup/popup_horaire.css" />
+
+     <script type="text/javascript">
+         function preventBack() { window.history.forward(); }
+         setTimeout("preventBack()", 0);
+         window.onunload = function () { null };
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:rgb(218,218,182)">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>BMDSysWeb</h2>
+                <ul>
+                    <li><a href="../Authentification.aspx"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="personnel_enregistrement.aspx"><i class="fas fa-user"></i>Enregistrement personnel</a></li>
+                    <li><a href="user_personnel.aspx"><i class="fas fa-address-card"></i>Gestion des utilisateurs</a></li>
+
+                </ul> 
+            </div>
+            <div style="margin-top:600px;position:absolute;text-align:center; margin-left:20px">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/user.png" />
+                    <ul >
+                        <asp:Label ID="lbl_utlilisateur" runat="server" Text="Label" ForeColor="White" Font-Bold="true">
+                        </asp:Label>
+                    </ul>
+                 </div>
+        </div>
+        <section class="content">
+            <div class="container-fluid">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </section>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </form>
+</body>
+</html>

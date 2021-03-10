@@ -1,0 +1,16 @@
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\GestionPresence.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\GestionPresence.pdb
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\bin\IronBarCode.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\obj\Debug\GestionPresence.dll
+C:\Users\VERON\Dropbox\Projet Rapport\GestionPresence\GestionPresence\obj\Debug\GestionPresence.pdb
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\bin\GestionPresence.dll
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\bin\GestionPresence.pdb
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\bin\MySql.Data.DLL
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\obj\Debug\GestionPresence.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\obj\Debug\GestionPresence.dll
+C:\Users\Sam\Desktop\GestionPresence\GestionPresence\obj\Debug\GestionPresence.pdb
+C:\Users\VERON\Desktop\GestionPresence - Copy\GestionPresence\bin\GestionPresence.dll
+C:\Users\VERON\Desktop\GestionPresence - Copy\GestionPresence\bin\GestionPresence.pdb
+C:\Users\VERON\Desktop\GestionPresence - Copy\GestionPresence\obj\Debug\GestionPresence.dll
+C:\Users\VERON\Desktop\GestionPresence - Copy\GestionPresence\obj\Debug\GestionPresence.pdb
+C:\Users\VERON\Desktop\GestionPresence - Copy\GestionPresence\obj\Debug\GestionPresence.csprojResolveAssemblyReference.cache
